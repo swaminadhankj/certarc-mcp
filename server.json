@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.certarc/certarc",
+  "title": "CertArc",
+  "description": "Free CISM, CISSP, CISA, AAISM and AAIA practice questions, and read-only access to your study.",
+  "version": "1.0.0",
+  "websiteUrl": "https://certarc.com",
+  "icons": [
+    { "src": "https://certarc.com/icons/icon-512.png", "mimeType": "image/png", "sizes": ["512x512"] }
+  ],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://certarc.com/mcp/claude" }
+  ]
+}
